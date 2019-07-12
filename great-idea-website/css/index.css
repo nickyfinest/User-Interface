@@ -60,7 +60,213 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+  display:inline;
+  padding-bottom: 10px;
+	
 }
 
 /* Your code starts here! */
+
+.logo {
+	position: absolute;
+	top:0;
+	right:0;
+	margin: 10px;
+}
+
+
+*/
+
+img {
+  border-radius: 10px;
+}
+
+
+/*=======CONTENT ROW=========*/
+
+
+
+.content-row1 {
+  display: flex;
+  margin: 10px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+.content-row2 {
+  display: flex;
+ float: left;
+}
+.content-row3 {
+  padding-top: 20px;
+  display: flex;
+  float: left;
+}
+
+
+.content-row div {
+  margin: 15px;/
+}
+/*=======CONTENT ROW=========*/
+
+
+
+
+/*=======CONTAINER=========*/
+/*=======CONTAINER=========*/
+
+.container {
+  margin: 0 auto;
+  width: 880px;
+  
+}
+.container header nav a {
+  margin: 0 10px;
+  color: grey;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.container header nav a:hover {
+  background: #FFFFFF;
+  color: black;
+}
+.container{
+	width: 800px
+	margin: auto;
+
+}
+
+/*=======CONTAINER=========*/
+/*=======CONTAINER=========*/
+
+
+.logo{
+  float:right;
+}
+
+/*=======HEADER=========*/
+/*=======HEADER=========*/
+.buttons {
+	margin-bottom: .5em;
+  }
+  
+
+header nav{
+	display:inline;
+	margin-top: 100px;
+}
+
+.headerLeft {
+  display:flex;
+}
+.headerRight {
+  display:flex;
+}
+
+/*=======HEADER=========*/
+/*=======HEADER=========*/
+
+
+
+
+
+
+
+
+/*=======MIDDLE BANNER=========*/
+/*=======MIDDLE BANNER=========*/
+.GetStarted {
+  border:10px grey;
+  display:flex;
+}
+.buttons {
+	margin-bottom: .5em;
+  }
+
+.middlebanner {
+  
+}
+
+
+.about { 
+  margin-top: 20px;
+}
+/*=======MIDDLE BANNER=========*/
+/*=======MIDDLE BANNER=========*/
+
+
+
+
+
+
+
+
+/*=======CONTACT=========*/
+/*=======CONTACT=========*/
+.contact-section {
+  border-top: 1px solid black;
+  padding: 50px 0;
+  
+}
+
+.contact-section h2 {
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+.contact-section {
+  line-height: 2;
+}
+/*=======CONTACT=========*/
+/*=======CONTACT=========*/
+
+
+
+
+/*======= FOOTER=========*/
+/*======= FOOTER=========*/
+footer {
+  width: 100%;
+  background:white;
+  border-top: 1px solid black;
+}
+footer .footer-content { 
+  margin: 0 auto; 
+  width: 600px;
+}
+footer .footer-content h3 {
+  padding: 0;
+  margin: 20px 0;
+}
+footer nav {
+  display: flex;
+}
+footer nav a {
+  margin-left: 0;
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
+footer .footer-content .copyright {
+  padding: 20px 0;
+  text-align: center;
+}
+/*======= FOOTER=========*/
+/*======= FOOTER=========*/
+
+
+
+img {
+  border-radius: 10px;
+}
+
+.content-row {
+  display: flex;
+}
+
+.content-row div {
+  margin: 50px;/*======= create a margin property.  Set the value to 20px DONE*/
+}
+
