@@ -60,213 +60,131 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 20px;
-  display:inline;
-  padding-bottom: 10px;
-	
+    margin-bottom: 15px;
 }
-
-/* Your code starts here! */
-
-.logo {
-	position: absolute;
-	top:0;
-	right:0;
-	margin: 10px;
-}
-
-
-*/
-
-img {
-  border-radius: 10px;
-}
-
-
-/*=======CONTENT ROW=========*/
-
-
-
-.content-row1 {
-  display: flex;
-  margin: 10px;
-  padding-bottom: 20px;
-  box-sizing: border-box;
-}
-.content-row2 {
-  display: flex;
- float: left;
-}
-.content-row3 {
-  padding-top: 20px;
-  display: flex;
-  float: left;
-}
-
-
-.content-row div {
-  margin: 15px;/
-}
-/*=======CONTENT ROW=========*/
-
-
-
-
-/*=======CONTAINER=========*/
-/*=======CONTAINER=========*/
 
 .container {
-  margin: 0 auto;
   width: 880px;
-  
+  /* TB LR */
+  margin: 0 auto;
 }
-.container header nav a {
-  margin: 0 10px;
-  color: grey;
-  padding: 20px;
+
+/****** Header Section ********/
+
+header nav {
   display: inline-block;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 
-.container header nav a:hover {
-  background: #FFFFFF;
-  color: black;
-}
-.container{
-	width: 800px
-	margin: auto;
-
-}
-
-/*=======CONTAINER=========*/
-/*=======CONTAINER=========*/
-
-
-.logo{
-  float:right;
-}
-
-/*=======HEADER=========*/
-/*=======HEADER=========*/
-.buttons {
-	margin-bottom: .5em;
-  }
-  
-
-header nav{
-	display:inline;
-	margin-top: 100px;
-}
-
-.headerLeft {
-  display:flex;
-}
-.headerRight {
-  display:flex;
-}
-
-/*=======HEADER=========*/
-/*=======HEADER=========*/
-
-
-
-
-
-
-
-
-/*=======MIDDLE BANNER=========*/
-/*=======MIDDLE BANNER=========*/
-.GetStarted {
-  border:10px grey;
-  display:flex;
-}
-.buttons {
-	margin-bottom: .5em;
-  }
-
-.middlebanner {
-  
-}
-
-
-.about { 
-  margin-top: 20px;
-}
-/*=======MIDDLE BANNER=========*/
-/*=======MIDDLE BANNER=========*/
-
-
-
-
-
-
-
-
-/*=======CONTACT=========*/
-/*=======CONTACT=========*/
-.contact-section {
-  border-top: 1px solid black;
-  padding: 50px 0;
-  
-}
-
-.contact-section h2 {
-  padding: 0;
-  margin: 0 0 10px 0;
-}
-.contact-section {
-  line-height: 2;
-}
-/*=======CONTACT=========*/
-/*=======CONTACT=========*/
-
-
-
-
-/*======= FOOTER=========*/
-/*======= FOOTER=========*/
-footer {
-  width: 100%;
-  background:white;
-  border-top: 1px solid black;
-}
-footer .footer-content { 
-  margin: 0 auto; 
-  width: 600px;
-}
-footer .footer-content h3 {
-  padding: 0;
-  margin: 20px 0;
-}
-footer nav {
-  display: flex;
-}
-footer nav a {
-  margin-left: 0;
-  margin: 10px;
-  color: black;
+header nav a:hover {
   text-decoration: underline;
 }
-footer .footer-content .copyright {
-  padding: 20px 0;
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+/********** IOD **********/
+
+.IOD .IOD-text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
   text-align: center;
-}
-/*======= FOOTER=========*/
-/*======= FOOTER=========*/
-
-
-
-img {
-  border-radius: 10px;
+  padding: 0px 75px;
 }
 
-.content-row {
-  display: flex;
+.IOD .IOD-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-.content-row div {
-  margin: 50px;/*======= create a margin property.  Set the value to 20px DONE*/
+.IOD .IOD-text button:hover {
+  background: black;
+  color: white;
 }
 
+.IOD img {
+  display: inline-block;
+  margin-top: 69px;
+}
+
+/********* Main Section ****/
+
+.MAIN {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.MAIN .TOP-SECTION {
+  padding: 0 10px;
+}
+
+.MAIN .TOP-SECTION .TEXT {
+  width: 410px;
+  display: inline-block;
+  margin-right: 34px;
+}
+
+.MAIN .TOP-SECTION .TEXT:last-child {
+  margin-right: 0;
+}
+
+.MAIN .middle-img {
+  margin-top: 45px;
+}
+
+.MAIN .BOTTOM-SECTION {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.MAIN .BOTTOM-SECTION .TEXT {
+  width: 275px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.MAIN .BOTTOM-SECTION .TEXT:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
